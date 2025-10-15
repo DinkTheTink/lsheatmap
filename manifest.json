@@ -1,0 +1,59 @@
+{
+  "name": "Listening Heatmap",
+  "organization": "Homelab Support",
+  "description": "A custom heatmap to show listening habits by day and hour.",
+  "logoUrl": "https://i.imgur.com/your-logo.png",
+  "organizationUrl": "https://github.com/DinkTheTink",
+  "supportUrl": "https://github.com/DinkTheTink/lsheatmap/issues",
+  "privacyPolicyUrl": "https://github.com/DinkTheTink",
+  "termsOfServiceUrl": "https://github.com/DinkTheTink",
+  "packageUrl": "https://DinkTheTink.github.io/lsheatmap/",
+  "devMode": "DEVMODE_ALWAYS",
+  "components": [
+    {
+      "id": "heatmap",
+      "name": "Listening Heatmap",
+      "description": "Displays listening history by day and hour.",
+      "iconUrl": "https://i.imgur.com/your-icon.png",
+      "resource": {
+        "js": "https://DinkTheTink.github.io/lsheatmap/viz.js",
+        "css": "https://DinkTheTink.github.io/lsheatmap/style.css"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "heatmapData",
+      "label": "Heatmap Data",
+      "elements": [
+        {
+          "id": "day",
+          "label": "Day of the Week",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "hour",
+          "label": "Hour of the Day",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "listeningCount",
+          "label": "Listening Count",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}
