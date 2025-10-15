@@ -1,21 +1,17 @@
 {
   "name": "Listening Heatmap",
   "organization": "Homelab Support",
-  "description": "A custom heatmap to show listening habits by day and hour.",
-  "organizationUrl": "https://github.com/DinkTheTink",
-  "supportUrl": "https://github.com/DinkTheTink/lsheatmap/issues",
-  "privacyPolicyUrl": "https://github.com/DinkTheTink",
-  "termsOfServiceUrl": "https://github.com/DinkTheTink",
-  "packageUrl": "https://DinkTheTink.github.io/lsheatmap/",
+  "description": "A custom heatmap...",
+  "packageUrl": "https://raw.githack.com/DinkTheTink/lsheatmap/main/",
   "devMode": "DEVMODE_ALWAYS",
   "components": [
     {
       "id": "heatmap",
       "name": "Listening Heatmap",
-      "description": "Displays listening history by day and hour.",
+      "description": "Displays listening history...",
       "resource": {
-        "js": "https://DinkTheTink.github.io/lsheatmap/viz.js",
-        "css": "https://DinkTheTink.github.io/lsheatmap/style.css"
+        "js": "https://raw.githack.com/DinkTheTink/lsheatmap/main/viz.js",
+        "css": "https://raw.githack.com/DinkTheTink/lsheatmap/main/style.css"
       }
     }
   ],
